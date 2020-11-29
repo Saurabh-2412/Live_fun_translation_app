@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun Translation App</title>
+    <style>
+        body{
+            display:grid;
+            margin: auto;
+        }
+        h2 {
+            text-align: center;
+            padding: 5px;
+            margin: 0;
+            border: 0px solid gray;
+            display: block;
+            font-size: 1.5em;
+            margin-block-start: 0em;
+            margin-block-end: 0em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            font-weight: bold;
+        }
+        div{
+            text-align: center;
+            padding-top: 5px;
+            margin: 0;
+            width: 100%;
+            height: 100%;
+        }
+        ::-webkit-input-placeholder {
+            text-align: center;
+            padding: 50px;
+        }
+        button{
+            margin: 20px;
+            padding: 10px;
+            background-color: rgb(243, 243, 114);
+        }
+    </style>
+</head>
+<body>
+    <h2>Fun Translation App</h2><br>
+    <div>
+        <textarea name="input-text" id="input-text" cols="30" rows="10" placeholder="Pleasse enter text to translate"></textarea><br>
+        <button id="btn-translate">Translate</button><br>
+        <textarea name="output-text" id="output-text" cols="25" rows="10" placeholder=""></textarea>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
